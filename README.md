@@ -1,3 +1,6 @@
+# website view
+[Go to web...](https://shehab097.github.io/weather-web-app/)
+
 # Weather App
 
 This project is a simple weather application that fetches weather data from the OpenWeatherMap API. 
