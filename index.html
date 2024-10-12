@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/img/image.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather app</title>
+</head>
+
+<body>
+
+
+    <div class="card">
+
+        <h1>
+            <img src="https://basmilius.github.io/weather-icons/production/fill/all/dust-wind.svg" alt="">
+            Wearher Update
+        </h1>
+        <div class="search">
+            <input type="text" name="" id="" placeholder="Enter city name" spellcheck="false" autofocus>
+            <button autofocus>Search</button>
+        </div>
+
+        <div class="error" style="display: none;">
+            <img src="/icon/location_off.svg" alt="">
+            <P>Invalid Location!</P>
+        </div>
+
+        <div class="loading hidden" style="display: none;">
+            <span class="loader"></span>
+        </div>
+
+        <!-- icon  -->
+        <div class="weather dis">
+
+            <div class="">
+                <img src="/icon/sun.svg" class="weather-icon" alt="">
+                <p id="weather-name">normol</p>
+            </div>
+
+            <div>
+                <h1 class="temp"><span id="temp">..</span>&deg;c</h1>
+                <h4>&uparrow;<span id="temp-max">..&deg;</span> &downarrow;<span id="temp-min">..</span>&deg;</h4>
+                <h4>Feels like <span id="feels-like"></span>&deg;</h4>
+
+                <h1>
+                    <img src="/icon/location.svg" alt="" style="filter: none;">
+                </h1>
+                <h2 class="city">Dhaka</h2>
+            </div>
+
+        </div>
+
+        <div class="details dis">
+
+            <!-- card -->
+            <div class="details-card">
+                <h3 class="details-title">wind speed</h3>
+                <img src="/icon/wind.svg" alt="" class="details-img">
+                <div class="details-txt">
+                    <span id="windSpeed">..</span> km/h
+                </div>
+
+            </div>
+
+            <div class="details-card">
+                <h3 class="details-title">humidity</h3>
+                <img src="/icon/humidity-svgrepo-com.svg" alt="" class="details-img">
+                <div class="details-txt">
+                    <span id="humidity">..</span>%
+                </div>
+
+            </div>
+            <div class="details-card">
+                <h3 class="details-title">pressure</h3>
+                <img src="/icon/bar.svg" alt="" class="details-img">
+                <div class="details-txt">
+                    <span id="pressure">..</span> mbar
+                </div>
+
+            </div>
+
+            <div class="details-card">
+                <h3 class="details-title ">Wind speed</h3>
+                <img src="/icon/arrow.svg" id="wind-direction-icon" class="details-img">
+                <div class="details-txt">
+                    <span id="wind-direction">..</span>&deg;
+                </div>
+
+            </div>
+
+            <div class="details-card">
+                <h3 class="details-title ">sun rise</h3>
+                <img src="/icon/sunrise.svg" class="details-img">
+                <div class="details-txt">
+                    <span id="sunrise">..</span><br>
+                    <h5>GMT +06:00</h5>
+                </div>
+            </div>
+
+            <div class="details-card">
+                <h3 class="details-title ">sun set</h3>
+                <img src="/icon/SunsetVector.svg" class="details-img">
+                <div class="details-txt">
+                    <span id="sunset">..</span><br>
+                    <h5>GMT +06:00</h5>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <div class="eeh" >
+        display is too small <br>
+        unable to display content! 
+        
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
