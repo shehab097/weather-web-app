@@ -23,7 +23,7 @@ This is a basic implementation of a weather app. It utilizes the OpenWeatherMap 
    - Sign up for a free OpenWeatherMap account at [https://openweathermap.org/](https://openweathermap.org/)
    - Get your API key from your account dashboard.
 2. **Replace the placeholder API key:**
-   - In the `script.js` file, replace `"907e91122aea5cf6a934d1036ee644d1"` with your actual API key.
+   - In the `script.js` file, replace `"api key"` with your actual API key.
 3. **Run the application:**
    - Open `index.html` in your web browser.
 
