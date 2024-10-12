@@ -114,9 +114,6 @@ function rmvError() {
     error.style.display = "none";
 }
 
-
-// displayMenu(); 
-
 function Sunrise(unixTimestamp) {
     /// Convert Unix timestamp to milliseconds
     const date = new Date(unixTimestamp * 1000);
@@ -131,65 +128,6 @@ function Sunrise(unixTimestamp) {
     return formattedTime;
 }
 
-// function images(img) {
-//     if (img == '01d') {
-//         return '/icons/01d.svg'
-//     }
-//     else if (img == '01n') {
-//         return '/icons/01n.svg'
-//     }
-//     else if (img == '10n') {
-//         return '/icons/10n.svg'
-//     }
-//     else if (img == '10d') {
-//         return '/icons/10d.svg'
-//     }
-//     else if (img == '02d') {
-//         return '/icons/02d.svg'
-//     }
-//     else if (img == '02n') {
-//         return '/icons/02n.svg'
-//     }
-//     else if (img == '03d') {
-//         return '/icons/03d.svg'
-//     }
-//     else if (img == '03n') {
-//         return '/icons/03n.svg'
-//     }
-//     else if (img == '04d') {
-//         return '/icons/04d.svg'
-//     }
-//     else if (img == '04n') {
-//         return '/icons/04d.svg'
-//     }
-//     else if (img == '09d') {
-//         return '/icons/09d.svg'
-//     }
-//     else if (img == '09n') {
-//         return '/icons/09n.svg'
-//     }
-//     else if (img == '11d') {
-//         return '/icons/11d.svg'
-//     }
-//     else if (img == '11n') {
-//         return '/icons/11n.svg'
-//     }
-//     else if (img == '13d') {
-//         return '/icons/13d.svg'
-//     }
-//     else if (img == '13n') {
-//         return '/icons/13n.svg'
-//     }
-//     else if (img == '50d') {
-//         return '/icons/50d.svg'
-//     }
-//     else if (img == '50n') {
-//         return '/icons/50n.svg'
-//     }
-//     else {
-//         return `https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`;
-//     }
-// }
 function images(img) {
     if (img == '01d') {
         return 'https://basmilius.github.io/weather-icons/production/fill/all/clear-day.svg'
@@ -198,10 +136,10 @@ function images(img) {
         return 'https://basmilius.github.io/weather-icons/production/fill/all/clear-night.svg'
     }
     else if (img == '10n') {
-        return '/icons/10n.svg'
+        return './icons/10n.svg'
     }
     else if (img == '10d') {
-        return '/icons/10d.svg'
+        return './icons/10d.svg'
     }
     else if (img == '02d') {
         return 'https://basmilius.github.io/weather-icons/production/fill/all/partly-cloudy-day-haze.svg'
